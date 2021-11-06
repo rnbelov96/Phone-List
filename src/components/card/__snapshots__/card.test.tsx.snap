@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly 1`] = `
+<div
+  className="card list__item"
+>
+  <img
+    alt="small square"
+    className="card-img-top list__item-img"
+    onClick={[Function]}
+    onLoad={[Function]}
+    src="some url"
+    style={
+      Object {
+        "display": "none",
+        "minHeight": "150px",
+      }
+    }
+  />
+  <div
+    className="lds-ring mx-auto list__item-circle"
+    style={
+      Object {
+        "display": "block",
+        "minHeight": "150px",
+      }
+    }
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+  <div
+    className="card-body list__item-content"
+  >
+    <h5
+      className="card-title list__item-title"
+    >
+      Some title
+    </h5>
+    <button
+      className="btn btn-danger list__item-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete Photo
+    </button>
+  </div>
+</div>
+`;

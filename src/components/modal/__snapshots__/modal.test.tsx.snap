@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render correctly 1`] = `
+<div
+  className="modal-window"
+>
+  <div
+    className="modal-window__center-wrapper"
+    onClick={[Function]}
+  >
+    <img
+      alt="big square"
+      onLoad={[Function]}
+      src="some url"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <div
+      className="lds-ring mx-auto"
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+  </div>
+</div>
+`;

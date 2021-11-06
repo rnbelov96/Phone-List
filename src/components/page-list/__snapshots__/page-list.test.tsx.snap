@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page List should render correctly 1`] = `
+<div
+  className="page-list"
+>
+  <button
+    className="page-list__button page-list__button_current "
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="page-list__button  "
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="page-list__button  "
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="page-list__button  "
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="page-list__button  "
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="page-list__button  "
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="page-list__button  page-list__button_inactive"
+    onClick={[Function]}
+    type="button"
+  >
+    ...
+  </button>
+  <button
+    className="page-list__button  "
+    onClick={[Function]}
+    type="button"
+  >
+    81
+  </button>
+</div>
+`;

@@ -1,0 +1,30 @@
+.modal-window__center-wrapper {
+  height: 100%;
+  text-align: center;
+
+  & > * {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &::before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+  }
+}
+
+.modal-window {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(1, 1, 1, 0.5);
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 200ms ease-in;
+}

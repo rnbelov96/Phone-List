@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render correctly 1`] = `
+<section
+  className="filter"
+>
+  <p
+    className="filter__text"
+  >
+    Filter by id:
+  </p>
+  <select
+    className="form-select filter__select"
+    onChange={[Function]}
+  >
+    <option
+      value={0}
+    >
+      All
+    </option>
+    <option
+      value={1}
+    >
+      1
+    </option>
+    <option
+      value={2}
+    >
+      2
+    </option>
+    <option
+      value={3}
+    >
+      3
+    </option>
+  </select>
+</section>
+`;

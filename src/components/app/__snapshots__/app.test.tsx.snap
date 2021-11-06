@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render loading screen 1`] = `
+<div
+  className="container"
+>
+  <section
+    className="loading"
+  >
+    <p
+      className="loading__text"
+    >
+      Loading in progress...
+    </p>
+    <div
+      className="lds-ring mx-auto loading__circle"
+    >
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`App should render main screen 1`] = `
+<div
+  className="container"
+>
+  <section
+    className="app"
+  >
+    <section
+      className="filter"
+    >
+      <p
+        className="filter__text"
+      >
+        Filter by id:
+      </p>
+      <select
+        className="form-select filter__select"
+        onChange={[Function]}
+      >
+        <option
+          value={0}
+        >
+          All
+        </option>
+        <option
+          value={1}
+        >
+          1
+        </option>
+      </select>
+    </section>
+    <section
+      className="list"
+    >
+      <div
+        className="card list__item"
+      >
+        <img
+          alt="small square"
+          className="card-img-top list__item-img"
+          onClick={[Function]}
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+              "minHeight": "150px",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto list__item-circle"
+          style={
+            Object {
+              "display": "block",
+              "minHeight": "150px",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          className="card-body list__item-content"
+        >
+          <h5
+            className="card-title list__item-title"
+          >
+            Some title
+          </h5>
+          <button
+            className="btn btn-danger list__item-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Photo
+          </button>
+        </div>
+      </div>
+      <div
+        className="card list__item"
+      >
+        <img
+          alt="small square"
+          className="card-img-top list__item-img"
+          onClick={[Function]}
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+              "minHeight": "150px",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto list__item-circle"
+          style={
+            Object {
+              "display": "block",
+              "minHeight": "150px",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          className="card-body list__item-content"
+        >
+          <h5
+            className="card-title list__item-title"
+          >
+            Some title
+          </h5>
+          <button
+            className="btn btn-danger list__item-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Photo
+          </button>
+        </div>
+      </div>
+      <div
+        className="card list__item"
+      >
+        <img
+          alt="small square"
+          className="card-img-top list__item-img"
+          onClick={[Function]}
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+              "minHeight": "150px",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto list__item-circle"
+          style={
+            Object {
+              "display": "block",
+              "minHeight": "150px",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          className="card-body list__item-content"
+        >
+          <h5
+            className="card-title list__item-title"
+          >
+            Some title
+          </h5>
+          <button
+            className="btn btn-danger list__item-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Photo
+          </button>
+        </div>
+      </div>
+    </section>
+    <div
+      className="page-list"
+    >
+      <button
+        className="page-list__button page-list__button_current "
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`App should render modal window 1`] = `
+<div
+  className="container"
+>
+  <section
+    className="app"
+  >
+    <div
+      className="modal-window"
+    >
+      <div
+        className="modal-window__center-wrapper"
+        onClick={[Function]}
+      >
+        <img
+          alt="big square"
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto"
+          style={
+            Object {
+              "display": "inline-block",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+      </div>
+    </div>
+    <section
+      className="filter"
+    >
+      <p
+        className="filter__text"
+      >
+        Filter by id:
+      </p>
+      <select
+        className="form-select filter__select"
+        onChange={[Function]}
+      >
+        <option
+          value={0}
+        >
+          All
+        </option>
+        <option
+          value={1}
+        >
+          1
+        </option>
+      </select>
+    </section>
+    <section
+      className="list"
+    >
+      <div
+        className="card list__item"
+      >
+        <img
+          alt="small square"
+          className="card-img-top list__item-img"
+          onClick={[Function]}
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+              "minHeight": "150px",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto list__item-circle"
+          style={
+            Object {
+              "display": "block",
+              "minHeight": "150px",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          className="card-body list__item-content"
+        >
+          <h5
+            className="card-title list__item-title"
+          >
+            Some title
+          </h5>
+          <button
+            className="btn btn-danger list__item-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Photo
+          </button>
+        </div>
+      </div>
+      <div
+        className="card list__item"
+      >
+        <img
+          alt="small square"
+          className="card-img-top list__item-img"
+          onClick={[Function]}
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+              "minHeight": "150px",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto list__item-circle"
+          style={
+            Object {
+              "display": "block",
+              "minHeight": "150px",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          className="card-body list__item-content"
+        >
+          <h5
+            className="card-title list__item-title"
+          >
+            Some title
+          </h5>
+          <button
+            className="btn btn-danger list__item-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Photo
+          </button>
+        </div>
+      </div>
+      <div
+        className="card list__item"
+      >
+        <img
+          alt="small square"
+          className="card-img-top list__item-img"
+          onClick={[Function]}
+          onLoad={[Function]}
+          src="some url"
+          style={
+            Object {
+              "display": "none",
+              "minHeight": "150px",
+            }
+          }
+        />
+        <div
+          className="lds-ring mx-auto list__item-circle"
+          style={
+            Object {
+              "display": "block",
+              "minHeight": "150px",
+            }
+          }
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div
+          className="card-body list__item-content"
+        >
+          <h5
+            className="card-title list__item-title"
+          >
+            Some title
+          </h5>
+          <button
+            className="btn btn-danger list__item-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Photo
+          </button>
+        </div>
+      </div>
+    </section>
+    <div
+      className="page-list"
+    >
+      <button
+        className="page-list__button page-list__button_current "
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,37 @@
+.page-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.page-list__button {
+  @include reset-btn;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+
+  &_current {
+    border: 1px solid black;
+    background: #f5f5f6;
+
+    &:hover {
+      cursor: initial;
+    }
+  }
+
+  &_inactive {
+    &:hover {
+      background: transparent !important;
+      cursor: initial;
+    }
+  }
+
+  &:hover {
+    background: #f5f5f6;
+  }
+}

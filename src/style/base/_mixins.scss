@@ -1,0 +1,16 @@
+@mixin bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin reset-btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  
+  &:focus {
+    outline: none;
+  }
+}
